@@ -1,0 +1,25 @@
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Environment
+.env
+
+# Dependencies
+/vendor/
+
+# Logs
+*.log
+
+# Uploads (keep directory, ignore files)
+public/uploads/*
+!public/uploads/enquiries/
+public/uploads/enquiries/*
+!public/uploads/enquiries/.gitkeep
+
+# Cache / Sessions
+/storage/
+
+# Composer
+/vendor/

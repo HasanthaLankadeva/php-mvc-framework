@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	padding: 0;
+	/* background: #f7ecec; */
+	color: #333;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-image: url(../img/icons/bg.png);
+	background-size: 50%;
+	background-position: right 0;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-color: #da853d38;
+}
+	.login-form-wrapper {
+		background: #ffffff63;
+		width: 280px;
+		box-sizing: border-box;
+		padding: 20px 0 0;
+		margin: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		border-radius: 10px;
+	}
+		.login-form-wrapper h2 {
+			margin: 0 auto 30px;
+			padding: 0 20px;
+		}
+		.login-form-wrapper .form-group {
+			padding: 0 20px;
+			margin: 0 0 25px;
+			position: relative;
+		}
+			.login-form-wrapper .form-control {
+				box-sizing: border-box;
+				width: 100%;
+				padding: 8px 8px 8px 40px;
+				background: white;
+				border: 1px solid #ccc;
+				outline: 0;
+			}
+			.login-form-wrapper .form-control:focus{
+				outline: none;
+			}
+				.login-form-wrapper .form-group .fa {
+					position: absolute;
+					top: 1px;
+					left: 21px;
+					background: #ccc;
+					padding: 8px 10px 8px 9px;
+				}
+			.login-form-wrapper .forgot-pw {
+				margin: 0 auto 30px;
+				padding: 0 20px;
+			}
+				.login-form-wrapper .forgot-pw a {
+					color: brown;
+				}
+		.login-form-wrapper .form-group.button-wrapper {
+			position: relative;
+			top: auto;
+			left: auto;
+			margin: 0 auto;
+			padding: 0;
+			width: 100%;
+		}
+		.login-form-wrapper .btn-primary {
+			border: 0;
+			padding: 10px 10px;
+			background: #da853d;
+			width: 100%;
+			box-sizing: border-box;
+			color: #fff;
+			font-size: 16px;
+			letter-spacing: 2px;
+			cursor: pointer;
+		}

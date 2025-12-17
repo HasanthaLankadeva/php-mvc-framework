@@ -1,0 +1,9 @@
+# Redirect all traffic to the public folder
+RewriteEngine On
+
+# Send URLs starting with /admin to admin directory
+RewriteRule ^admin(/.*)?$ admin$1 [L]
+
+# Send all other URLs to public directory
+RewriteRule ^$ public/ [L]
+RewriteRule (.*) public/$1 [L]

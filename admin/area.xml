@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modules>
+	<module name="module_languages" label="Languages">
+		<fields>en</fields>
+	</module>
+	
+	<!--module name="module_NAME" label="DISPLAY-NAME">
+		<fields>
+			<field>
+				<label>ID</label>
+				<name>itemID</name>
+			</field>
+			<field>
+				<label>Title</label>
+				<name>itemTitle</name>
+			</field>
+			<field>
+				<label>Image</label>
+				<name>itemImage</name>
+			</field>
+			<field>
+				<label>Content</label>
+				<name>content</name>
+			</field>
+			<field>
+				<label>Content One</label>
+				<name>contentOne</name>
+			</field>
+			<field>
+				<label>Content Two</label>
+				<name>contentTwo</name>
+			</field>
+			<field>
+				<label>Line One</label>
+				<name>lineOne</name>
+			</field>
+			<field>
+				<label>Line Two</label>
+				<name>lineTwo</name>
+			</field>
+			<field>
+				<label>Line Three</label>
+				<name>lineThree</name>
+			</field>
+			<field>
+				<label>Line Four</label>
+				<name>lineFour</name>
+			</field>
+			<field>
+				<label>Line Five</label>
+				<name>lineFive</name>
+			</field>
+			<field>
+				<label>Line Six</label>
+				<name>lineSix</name>
+			</field>
+			<field>
+				<label>Line Seven</label>
+				<name>lineSeven</name>
+			</field>
+			<field>
+				<label>Line Eight</label>
+				<name>lineEight</name>
+			</field>
+			<field>
+				<label>Line Nine</label>
+				<name>lineNine</name>
+			</field>
+			<field>
+				<label>Line Ten</label>
+				<name>lineTen</name>
+			</field>
+			<field>
+				<label>Line Eleven</label>
+				<name>lineEleven</name>
+			</field>
+			<field>
+				<label>Line Twelve</label>
+				<name>lineTwelve</name>
+			</field>
+			<field>
+				<label>Line Thirteen</label>
+				<name>lineThirteen</name>
+			</field>
+			<field>
+				<label>Line Fourteen</label>
+				<name>lineFourteen</name>
+			</field>
+			<field>
+				<label>Line Fifteen</label>
+				<name>lineFifteen</name>
+			</field>
+			<field>
+				<label>Key</label>
+				<name>itemKey</name>
+			</field>
+			<field>
+				<label>Category</label>
+				<name>itemCategory</name>
+			</field>
+			<field>
+				<label>Attachments</label>
+				<name>attachments</name>
+			</field>
+			<field>
+				<label>Start Date</label>
+				<name>startDate</name>
+			</field>
+			<field>
+				<label>End Date</label>
+				<name>endDate</name>
+			</field>
+		</fields>
+		<mapping name="module_MAPPING-TABLE" label="Lectures"></mapping>
+	</module-->
+	
+	<module name="module_home_page" label="Home Page">
+		<fields>
+			<field>
+				<label>ID</label>
+				<name>itemID</name>
+			</field>
+			<field>
+				<label>Intro Title</label>
+				<name>itemTitle</name>
+			</field>
+			<field>
+				<label>Intro Image</label>
+				<name>itemImage</name>
+			</field>
+			<field>
+				<label>Intro Content</label>
+				<name>content</name>
+			</field>
+		</fields>
+	</module>
+	
+	<module name="module_products_page" label="Products Page">
+		<fields>
+			<field>
+				<label>ID</label>
+				<name>itemID</name>
+			</field>
+			<field>
+				<label>Intro Title</label>
+				<name>itemTitle</name>
+			</field>
+			<field>
+				<label>Intro Image</label>
+				<name>itemImage</name>
+			</field>
+			<field>
+				<label>Intro Content</label>
+				<name>content</name>
+			</field>
+		</fields>
+	</module>
+
+	<module name="module_about_page" label="About Page">
+		<fields>
+			<field>
+				<label>ID</label>
+				<name>itemID</name>
+			</field>
+			<field>
+				<label>Intro Title</label>
+				<name>itemTitle</name>
+			</field>
+			<field>
+				<label>Intro Image</label>
+				<name>itemImage</name>
+			</field>
+			<field>
+				<label>Intro Content</label>
+				<name>content</name>
+			</field>
+		</fields>
+	</module>
+	
+	<module name="module_contact_page" label="Contact Page">
+		<fields>
+			<field>
+				<label>ID</label>
+				<name>itemID</name>
+			</field>
+			<field>
+				<label>Intro Title</label>
+				<name>itemTitle</name>
+			</field>
+			<field>
+				<label>Intro Image</label>
+				<name>itemImage</name>
+			</field>
+			<field>
+				<label>Intro Content</label>
+				<name>content</name>
+			</field>
+		</fields>
+	</module>
+	
+	<module name="module_products" label="Products">
+		<fields>
+			<field>
+				<label>ID</label>
+				<name>itemID</name>
+			</field>
+			<field>
+				<label>Intro Title</label>
+				<name>itemTitle</name>
+			</field>
+			<field>
+				<label>Intro Image</label>
+				<name>itemImage</name>
+			</field>
+			<field>
+				<label>Intro Content</label>
+				<name>content</name>
+			</field>
+		</fields>
+	</module>
+	
+	<module name="module_metadata" label="Meta ( SEO )">
+		<fields>
+			<field>
+				<label>ID</label>
+				<name>itemID</name>
+			</field>
+			<field>
+				<label>Meta Title</label>
+				<name>itemTitle</name>
+			</field>
+			<field>
+				<label>Meta Image</label>
+				<name>itemImage</name>
+			</field>
+			<field>
+				<label>Meta Descritopn</label>
+				<name>content</name>
+			</field>
+			<field>
+				<label>Meta URL</label>
+				<name>lineOne</name>
+			</field>
+			<field>
+				<label>Category</label>
+				<name>itemCategory</name>
+			</field>
+		</fields>
+	</module>
+	
+</modules>

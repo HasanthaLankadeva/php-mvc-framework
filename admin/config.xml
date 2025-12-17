@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<config name="config_dev">
+		<title>Dev Site</title>
+ 		<content>https://devsite.kakkutaika.com/</content>
+	</config>
+	<config name="config_live">
+		<title>Live Site</title>
+ 		<content>https://kakkutaika.com/</content>
+	</config>
+	<config name="config_limi">
+		<title>Coupon Code</title>
+ 		<content>AAA-BBB-CCC-DDDD</content>
+	</config>
+</configs>
