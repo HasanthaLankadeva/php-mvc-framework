@@ -7,7 +7,7 @@
 3. Update database & mail credentials
 4. Create database tables
 5. Run via XAMPP:
-   http://localhost/project
+   http://localhost/template
 
 ## Features
 - MVC routing

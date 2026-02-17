@@ -1,0 +1,125 @@
+/* ====== GLOBAL ====== */
+body {
+    background-color: #f4f6f9;
+    font-family: "Inter", "Segoe UI", sans-serif;
+    color: #343a40;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-wrapper {
+    margin-left: 240px;
+    padding: 25px;
+}
+
+/* ====== HEADER ====== */
+.admin-header {
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin-header h1 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* ====== SIDEBAR ====== */
+.admin-sidebar {
+    width: 240px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #111827;
+    padding-top: 60px;
+}
+
+.admin-sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.admin-sidebar a:hover,
+.admin-sidebar .active > a {
+    background: #1f2937;
+    color: #ffffff;
+}
+
+/* ====== BREADCRUMB ====== */
+.breadcrumb-wrapper {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.breadcrumb {
+    background: none;
+    padding: 0;
+    font-size: 13px;
+}
+
+/* ====== CARDS ====== */
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+    border: none;
+}
+
+.card-header {
+    font-weight: 600;
+    background: transparent;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* ====== TABLE ====== */
+.table {
+    background: #ffffff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #f9fafb;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.table td {
+    font-size: 14px;
+}
+
+/* ====== BUTTONS ====== */
+.btn {
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.btn-primary {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-danger {
+    background: #dc2626;
+}
+
+/* ====== FORMS ====== */
+.form-control {
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: none;
+}

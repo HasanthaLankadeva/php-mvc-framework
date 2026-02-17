@@ -3,6 +3,7 @@ RewriteEngine On
 
 # Send URLs starting with /admin to admin directory
 RewriteRule ^admin(/.*)?$ admin$1 [L]
+RewriteRule ^admin-panel(/.*)?$ admin-panel$1 [L]
 
 # Send all other URLs to public directory
 RewriteRule ^$ public/ [L]
