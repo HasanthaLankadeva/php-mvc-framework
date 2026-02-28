@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once '../config/config.php';
-require_once '../core/Database.php';
+require_once dirname(__DIR__).'/config/config.php';
+require_once CONFIG_PATH.'/Database.php';
 
 header('Content-Type: application/json');
 

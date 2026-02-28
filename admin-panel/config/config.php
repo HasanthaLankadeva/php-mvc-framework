@@ -13,6 +13,8 @@ define('CONTROLLER_PATH', APP_PATH . '/controllers');
 define('MODEL_PATH', APP_PATH . '/models');
 define('VIEW_PATH', APP_PATH . '/views');
 define('CONFIG_PATH', APP_PATH . '/config');
+define('ROUTES_PATH', APP_PATH . '/routes');
+define('MIDDLEWARE_PATH', APP_PATH . '/middleware');
 
 // ---------- BASE URL ----------
 define('BASE_URL', '/template/admin-panel');

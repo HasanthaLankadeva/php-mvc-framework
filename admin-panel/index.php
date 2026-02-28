@@ -9,7 +9,8 @@ spl_autoload_register(function ($class) {
     $paths = [
         CORE_PATH,
         CONTROLLER_PATH,
-        MODEL_PATH
+        MODEL_PATH,
+        MIDDLEWARE_PATH
     ];
     foreach ($paths as $path) {
         $file = $path . '/' . $class . '.php';
