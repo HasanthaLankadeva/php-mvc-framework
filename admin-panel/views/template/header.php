@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/assets/css/admin.css">
 </head>
 <body>
-    
+<?php if($view != 'login') { ?>    
     <div class="content-wrapper admin-header">
         <h1><?= $pageTitle ?? 'Admin Panel' ?></h1>
 
@@ -22,3 +22,4 @@
             <a href="<?= BASE_URL ?>/logout" class="btn btn-sm btn-outline-secondary">Logout</a>
         </div>
     </div>
+<?php } ?>

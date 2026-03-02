@@ -1,7 +1,16 @@
 <?php
-class Controller {
+class Controller 
+{
 
-    protected function view($view, $data = []) {
+    protected PDO $db;
+
+    public function __construct(PDO $pdo)
+    {
+        $this->db = $pdo;
+    }
+
+    protected function view(string $view, array $data = []): void 
+    {
         extract($data);
 
         require VIEW_PATH . '/template/header.php';
@@ -13,5 +22,6 @@ class Controller {
         header('Location: ' . BASE_URL . '/' . ltrim($path, '/'));
         exit;
     }
+    
 }
 ?>

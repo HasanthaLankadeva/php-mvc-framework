@@ -15,6 +15,8 @@ define('VIEW_PATH', APP_PATH . '/views');
 define('CONFIG_PATH', APP_PATH . '/config');
 define('ROUTES_PATH', APP_PATH . '/routes');
 define('MIDDLEWARE_PATH', APP_PATH . '/middleware');
+define('SERVICE_PATH', APP_PATH . '/services');
+define('REPOSITORY_PATH', APP_PATH . '/repositories');
 
 // ---------- BASE URL ----------
 define('BASE_URL', '/template/admin-panel');

@@ -2,10 +2,17 @@
 
 class Router
 {
+    private PDO $pdo;
+
     private array $routes = [];
     private array $middleware = [];
     private $groupPrefix = '';
     private $groupMiddleware = [];
+
+    public function __construct(PDO $pdo)
+    {
+        $this->pdo = $pdo;
+    }
 
     public function get($uri, $action, $middleware = [])
     {
@@ -79,7 +86,8 @@ class Router
                 throw new Exception("Controller $controller not found");
             }
 
-            $controllerInstance = new $controller;
+            // Inject PDO here
+            $controllerInstance = new $controller($this->pdo);
 
             if (!method_exists($controllerInstance, $method)) {
                 throw new Exception("Method $method not found in $controller");
